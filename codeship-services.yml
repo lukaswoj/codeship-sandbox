@@ -1,4 +1,4 @@
 app:
   image: lukaswoj/phppgadmin
   volume:
-    - ./:/data/config
+    - ./:/var/www/app
