@@ -1,2 +1,8 @@
 - service: app
-  command: ls /var/www/app
+  command: ls -al
+- service: app
+  command: ls -al /var
+- service: app
+  command: ls -al /var/www
+- service: app
+  command: ls -al /var/www/app
